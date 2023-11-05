@@ -10,8 +10,13 @@
     font-size: 36px;
   }
 
+  h1 {
+    font-size: 25px;
+  }
+
   h2 {
     font-size: 44px;
+    text-align: center;
   }
 
   h3 {
@@ -45,6 +50,7 @@ h6 {
 
 h2 {
   font-size: 64px;
+  text-align: center;
 }
 
 p {
