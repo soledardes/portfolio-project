@@ -35,6 +35,10 @@
   .hero {
     padding: 80px 20px;
   }
+
+  .title {
+    font-size: 15px;
+  }
 }
 
 h1,
