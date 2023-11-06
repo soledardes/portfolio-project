@@ -5,42 +5,6 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 900px) {
-  .hero h1 {
-    font-size: 36px;
-  }
-
-  h1 {
-    font-size: 25px;
-  }
-
-  h2 {
-    font-size: 44px;
-    text-align: center;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  .btn {
-    font-size: 18px;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .title {
-    font-size: 15px;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -162,6 +126,7 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -185,4 +150,40 @@ footer .contact-box {
 
 footer .contact-box p {
   margin: 0;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .btn-branding {
+    font-size: 18px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
 }
